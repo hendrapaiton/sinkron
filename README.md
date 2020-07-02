@@ -1,2 +1,2 @@
-# sinkron
+# SINKRON
 Simple Django Celery Example
