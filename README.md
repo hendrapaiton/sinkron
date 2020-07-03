@@ -20,8 +20,8 @@ where status is asynchronous using django application, celery and redis.
 
 ## Setup
 Before you setup the project you must clone this project and installing
-redis server where you can download at [redis.io](https://redis.io/download). 
-And for windows you can download old version at [tporadowski](https://github.com/tporadowski/redis/releases).
+redis server where you can download at [redis.io](https://redis.io/download), 
+and for windows you can download old version redis at [tporadowski](https://github.com/tporadowski/redis/releases).
 
 #### Clone
 Clone this repo to your local machine 
@@ -37,7 +37,7 @@ $ pip install virtualenv
 $ virtual venv
 $ source venv/bin/activate
 ```
-In your cloning project in local machine
+Installing Django, Celery and Redis Library for Python
 ```
 $ pip install -r requirements.txt
 ```
@@ -61,13 +61,10 @@ In python console
 ```
 
 ## Features
-List features ready
-* Simple task using celery and get the data from the task
-
-To-do list :
-* Task to make counter range from 0 to 100 using task in celery
-* Making endpoint in django where can access from http by the client
-* Making function javascript to get data from django and presenting progress bar
+- [x] Simple task using celery and get the data from the task
+- [ ] Task to make counter range from 0 to 100 using task in celery
+- [ ] Making endpoint in django where can access from http by the client
+- [ ] Making function javascript to get data from django and presenting progress bar
 
 
 ## Inspiration
