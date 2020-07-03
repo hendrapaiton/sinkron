@@ -16,7 +16,7 @@ where status is asynchronous using django application
 ## Technologies
 * Django - version 3.0.8
 * Celery - version 4.4.6
-* Redis - version 3.5.3
+* Redis - version 5.0.9
 
 ## Setup
 Before you setup the project you must clone this project and installing
