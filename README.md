@@ -11,7 +11,7 @@
 
 ## General Info
 This project has a simple goal which is to create a progress bar 
-where status is asynchronous using django application
+where status is asynchronous using django application, celery and redis.
 
 ## Technologies
 * Django - version 3.0.8
