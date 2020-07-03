@@ -21,7 +21,7 @@ where status is asynchronous using django application
 ## Setup
 Before you setup the project you must clone this project and installing
 redis server where you can download at [redis.io](https://redis.io/download). 
-And for windows you can download old version at [microsoftarchive](https://github.com/microsoftarchive/redis/releases).
+And for windows you can download old version at [tporadowski](https://github.com/tporadowski/redis/releases).
 
 #### Clone
 Clone this repo to your local machine 
