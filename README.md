@@ -62,7 +62,7 @@ In python console
 
 ## Features
 - [x] Simple task using celery and get the data from the task
-- [ ] Task to make counter range from 0 to 100 using task in celery
+- [x] Task to make counter range from 1 to 100 using task in celery
 - [ ] Making endpoint in django where can access from http by the client
 - [ ] Making function javascript to get data from django and presenting progress bar
 
