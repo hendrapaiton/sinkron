@@ -55,9 +55,11 @@ __Notes__ : Add arguments `--pool=solo` if you using Windows 10
 In python console
 ```
 >>> from index.tasks import add
->>> res = add.delay(1,2)
->>> print(res.state) # 'SUCCESS'
->>> print(res.info) # 3
+>>> job = do_work.delay(1,2)
+>>> print(job.info) 
+{'current': 3, 'total': 100} # None if state is success
+>>> print(job.state) 
+PROGRESS # state is 'SUCCESS' if job is finished
 ```
 
 ## Features
