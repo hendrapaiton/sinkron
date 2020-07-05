@@ -65,8 +65,8 @@ PROGRESS # state is 'SUCCESS' if job is finished
 ## Features
 - [x] Simple task using celery and get the data from the task
 - [x] Task to make counter range from 1 to 100 using task in celery
-- [ ] Making endpoint in django where can access from http by the client
-- [ ] Making function javascript to get data from django and presenting progress bar
+- [x] Making endpoint in django where can access from http by the client
+- [x] Making function javascript to get data from django and presenting progress bar
 
 
 ## Inspiration
