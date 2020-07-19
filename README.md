@@ -35,7 +35,8 @@ Making virtual environment for the project
 $ cd sinkron
 $ pip install virtualenv
 $ virtual venv
-$ source venv/bin/activate
+$ source venv/bin/activate # On linux
+$ .\venv\Scripts\activate # on Windows
 ```
 Installing Django, Celery and Redis Library for Python
 ```
