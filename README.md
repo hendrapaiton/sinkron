@@ -1,4 +1,4 @@
-# SINKRON
+# SINKRON ![Django CI](https://github.com/hendrapaiton/sinkron/workflows/Django%20CI/badge.svg)
 > Simple Django Celery Example
 
 ## Table of Contents
