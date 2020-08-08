@@ -14,9 +14,9 @@ This project has a simple goal which is to create a progress bar
 where status is asynchronous using django application, celery and redis.
 
 ## Technologies
-* Django - version 3.0.8
-* Celery - version 4.4.6
-* Redis - version 5.0.9
+* Django - version 3.1
+* Celery - version 4.4.7
+* Redis - version 3.5.3
 
 ## Setup
 Before you setup the project you must clone this project and installing
