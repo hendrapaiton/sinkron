@@ -1,9 +1,11 @@
 from time import sleep
 
-from celery import task, current_task
+from celery import current_task
+
+from sinkron import app
 
 
-@task()
+@app.task(typing=False)
 def do_work():
     total = 102
     for i in range(1, total):
