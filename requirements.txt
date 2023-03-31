@@ -12,7 +12,7 @@ importlib-metadata==1.7.0
 kombu==5.1.0
 prompt-toolkit==3.0.18
 pytz==2020.1
-redis==3.5.3
+redis==4.4.4
 six==1.16.0
 sqlparse==0.3.1
 vine==5.0.0
